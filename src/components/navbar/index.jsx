@@ -3,7 +3,7 @@ import '../navbar/navbar.css'
 import logoimg from '../../assets/imgs/onigiri.png'
 import solimg from '../../assets/imgs/sol.png'
 import luaimg from '../../assets/imgs/lua.png'
-import hambmenu from '../../assets/imgs/hamb.png'
+
 
 
 export default function navBar() {
@@ -30,8 +30,8 @@ export default function navBar() {
                                 <li><a href="/">Contato</a></li>
                             </ul>
                         </nav>
-                        <div id="sol">
-                            <img src={solimg} />
+                        <div id="lua">
+                            <img src={luaimg} />
                         </div>
                     </div>
                 </div>
