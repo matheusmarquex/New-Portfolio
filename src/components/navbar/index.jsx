@@ -13,9 +13,11 @@ export default function navBar() {
     return (
         <>
             {/* mobile menu */}
-            <Navbar bg="myGray" variant="dark" expand="lg">
+            <Navbar bg="myGray" variant="dark" expand="lg" 
+            fixed="top" 
+            >
                 <Navbar.Brand className="imgNav">
-                <img src={logoimg} width="40px" height="40px"/>
+                <p style={{fontSize: "40px"}}>🍙</p>
                 </Navbar.Brand>
                 <Navbar.Toggle className="toggle"/>
 
@@ -32,32 +34,7 @@ export default function navBar() {
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>
-
-
-
-            {/* <div id="container-nav">
-                <div id="container-nav2">
-                    <div id="logo-nav">
-                        <div>
-                            <img src={logoimg} />
-                        </div>
-                        <div id="nome">
-                            <a href="#"><h1>Matheus Marques</h1></a>
-                        </div>
-                    </div>
-                    <div id="nav-emoji">
-                        <nav id="nav">
-                            <ul id="menu">
-                                <li><a href="/">Início</a></li>
-                                <li><a href="/">Sobre </a></li>
-                                <li><a href="/">Skills</a></li>
-                                <li><a href="/">Projetos</a></li>
-                                <li><a href="/">Contato</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div> */}
+            
         </>
     )
 }

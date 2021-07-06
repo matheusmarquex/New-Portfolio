@@ -10,3 +10,7 @@ a {
   color: inherit;
   
 }
+.App{
+  height: 100vh;
+  margin-top: 10px;
+}
