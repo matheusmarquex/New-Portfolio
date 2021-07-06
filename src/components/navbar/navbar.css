@@ -1,4 +1,16 @@
-#container-nav {
+.bg-myGray {
+    background-color: #0f0f10;
+}
+.imgNav {
+    margin-left: 1rem;
+}
+.toggle {
+    margin-right: 1rem;
+}
+.itens{
+    margin-left: 1rem;
+}
+/* #container-nav {
     display: flex;
     background-color: #0f0f10;
     color: white;
@@ -67,4 +79,4 @@ ul > li a:hover{
     }
    
     
-}
+} */
